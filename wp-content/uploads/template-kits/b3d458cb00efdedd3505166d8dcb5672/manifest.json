@@ -1,0 +1,1433 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Tructo - Template kit for Constructions services",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kit.creativemox.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing Plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Portfolio",
+            "screenshot": "screenshots\/single-portfolio.jpg",
+            "source": "templates\/single-portfolio.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/single-portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Tructo - Header",
+            "screenshot": "screenshots\/tructo-header.jpg",
+            "source": "templates\/tructo-header.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/?elementor_library=tructo-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Tructo - Menu Slide",
+            "screenshot": "screenshots\/tructo-menu-slide.png",
+            "source": "templates\/tructo-menu-slide.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/?elementor_library=tructo-menu-slide",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Tructo - Footer",
+            "screenshot": "screenshots\/tructo-footer.jpg",
+            "source": "templates\/tructo-footer.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/?elementor_library=tructo-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Tructo - Blog",
+            "screenshot": "screenshots\/tructo-blog.jpg",
+            "source": "templates\/tructo-blog.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/?elementor_library=tructo-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Tructo - Single Blog",
+            "screenshot": "screenshots\/tructo-single-blog.jpg",
+            "source": "templates\/tructo-single-blog.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/?elementor_library=tructo-single-blog",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: All Singular."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Tructo - Error 404",
+            "screenshot": "screenshots\/tructo-error-404.jpg",
+            "source": "templates\/tructo-error-404.json",
+            "preview_url": "https:\/\/kit.creativemox.com\/tructo\/?elementor_library=tructo-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.18.1",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.0.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.7",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.16.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "in-glasses-and-hard-hat-worker-in-professional-uniform-is-on-the-borrow-pit-at-daytime-1.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/in-glasses-and-hard-hat-worker-in-professional-uniform-is-on-the-borrow-pit-at-daytime-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 94949,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/in-glasses-and-hard-hat-worker-in-professional-uni-7T3S6YS"
+        },
+        {
+            "filename": "three-construction-workers-sitting-on-concrete-at-construction-site-discussing-building-plans-e1700584017214.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/three-construction-workers-sitting-on-concrete-at-construction-site-discussing-building-plans-e1700584017214-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/tructo-blog.json",
+                    "name": "Tructo - Blog"
+                }
+            ],
+            "filesize": 165120,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4017214"
+        },
+        {
+            "filename": "construction-worker-in-protective-uniform-discussing-building-plans-with-businessman-in-hardhat-and.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/construction-worker-in-protective-uniform-discussing-building-plans-with-businessman-in-hardhat-and-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 227769,
+            "dimensions": [
+                1280,
+                1918
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-worker-in-protective-uniform-discussi-QNBHCT2"
+        },
+        {
+            "filename": "crane-and-building-construction-site-on-background-of-sky.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/crane-and-building-construction-site-on-background-of-sky-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 205208,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/crane-and-building-construction-site-on-background-Y5W7G7G"
+        },
+        {
+            "filename": "engineer-foreman-and-worker-discussing-in-building-construction-site-1.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/engineer-foreman-and-worker-discussing-in-building-construction-site-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 137545,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/engineer-foreman-and-worker-discussing-in-building-Q9BYEHK"
+        },
+        {
+            "filename": "signature.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/signature.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 12439,
+            "dimensions": [
+                537,
+                85
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_1.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/img_1.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 92617,
+            "dimensions": [
+                600,
+                588
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/white-man-worker-wearing-helmet-and-vest-posing-wi-5FG6PWG"
+        },
+        {
+            "filename": "23.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/23.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 34357,
+            "dimensions": [
+                499,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "18.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/18.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 44243,
+            "dimensions": [
+                499,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "06.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 26967,
+            "dimensions": [
+                499,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "32.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/32.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 31076,
+            "dimensions": [
+                499,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "Pattern-6.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/Pattern-6.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/tructo-footer.json",
+                    "name": "Tructo - Footer"
+                }
+            ],
+            "filesize": 721,
+            "dimensions": [
+                100,
+                80
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "construction-engineer-with-foreman-worker-checking-construction-site.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/construction-engineer-with-foreman-worker-checking-construction-site-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 130430,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-engineer-with-foreman-worker-checking-VU2JWXK"
+        },
+        {
+            "filename": "01-1.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/01-1.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 8512,
+            "dimensions": [
+                137,
+                92
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "02-2.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/02-2.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 10578,
+            "dimensions": [
+                136,
+                92
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "03-3.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/03-3.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 10668,
+            "dimensions": [
+                136,
+                92
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "04-42.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/04-42.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 9766,
+            "dimensions": [
+                137,
+                92
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-1-1.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/logo-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2063,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2-1.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/logo-2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1811,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2079,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2193,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1900,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "under-construction-e1702217045375.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/under-construction-800x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 122018,
+            "dimensions": [
+                1280,
+                640
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/under-construction-PU92FX4"
+        },
+        {
+            "filename": "cropped-shot-of-architect-team-discussing-work-plan-industrial-building-design-project-at-office-.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/cropped-shot-of-architect-team-discussing-work-plan-industrial-building-design-project-at-office--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 114536,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cropped-shot-of-architect-team-discussing-work-pla-47C58BE"
+        },
+        {
+            "filename": "male-builder-painting-wall-in-house-under-construction.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/male-builder-painting-wall-in-house-under-construction-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 141279,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/male-builder-painting-wall-in-house-under-construc-9FE3Q6Q"
+        },
+        {
+            "filename": "construction-worker-are-checking-the-construction-progress-of-the-housing-project-.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/construction-worker-are-checking-the-construction-progress-of-the-housing-project--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 122481,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-worker-are-checking-the-construction--JQ4MEW9"
+        },
+        {
+            "filename": "cheerful-builder-painting-wall-in-house-under-construction.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/cheerful-builder-painting-wall-in-house-under-construction-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 103363,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-builder-painting-wall-in-house-under-cons-U3DKD35"
+        },
+        {
+            "filename": "process-construction-bridge-for-cars-or-trains-and-road-transport-infrastructure-in-mountainous-area.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/process-construction-bridge-for-cars-or-trains-and-road-transport-infrastructure-in-mountainous-area-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 268971,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/process-construction-bridge-for-cars-or-trains-and-MURJQWZ"
+        },
+        {
+            "filename": "group-architect-team-on-construction-site-inspection-documents-and-business-workflow-in-the-morning-.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/group-architect-team-on-construction-site-inspection-documents-and-business-workflow-in-the-morning--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 94033,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/group-architect-team-on-construction-site-inspecti-MF4EX49"
+        },
+        {
+            "filename": "1.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 20084,
+            "dimensions": [
+                378,
+                378
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "5.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 22801,
+            "dimensions": [
+                374,
+                374
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "16.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/16.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 23472,
+            "dimensions": [
+                376,
+                376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "reading-the-plan-man-is-working-on-the-construction-site-at-daytime-e1700740743374.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/reading-the-plan-man-is-working-on-the-construction-site-at-daytime-e1700740743374-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 145537,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-0743374"
+        },
+        {
+            "filename": "dubai-sky-residence.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/dubai-sky-residence-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 268251,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/dubai-sky-residence-PKTRULG"
+        },
+        {
+            "filename": "kwun-tong-hong-kong-02-june-2019-top-view-of-hong-kong-downtown-city.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/kwun-tong-hong-kong-02-june-2019-top-view-of-hong-kong-downtown-city-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 305244,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/kwun-tong-hong-kong-02-june-2019-top-view-of-hong--DQVS6JX"
+        },
+        {
+            "filename": "picturesque-view-of-lerwick-city-and-the-shetland-islands.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/picturesque-view-of-lerwick-city-and-the-shetland-islands-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 201493,
+            "dimensions": [
+                1280,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/picturesque-view-of-lerwick-city-and-the-shetland--6GHM3LG"
+        },
+        {
+            "filename": "villa-pamphili-in-rome-italy.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/villa-pamphili-in-rome-italy-800x531.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 261825,
+            "dimensions": [
+                1280,
+                849
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/villa-pamphili-in-rome-italy-FRELRJN"
+        },
+        {
+            "filename": "construction-crane-building-high-rise-apartment.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/construction-crane-building-high-rise-apartment-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 294080,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-crane-building-high-rise-apartment-RSPD4NY"
+        },
+        {
+            "filename": "gomel-belarus-aerial-view-of-building-of-republican-scientific-center-for-radiation-medicine-and.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/gomel-belarus-aerial-view-of-building-of-republican-scientific-center-for-radiation-medicine-and-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 257909,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/gomel-belarus-aerial-view-of-building-of-republica-G49J5UJ"
+        },
+        {
+            "filename": "team-of-architects-and-engineer-working-on-construction-plans-e1700567050301.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/team-of-architects-and-engineer-working-on-construction-plans-e1700567050301-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/tructo-single-blog.json",
+                    "name": "Tructo - Single Blog"
+                }
+            ],
+            "filesize": 133560,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7050301"
+        },
+        {
+            "filename": "dubai-marina-skyscrapers-low-angle-view-in-a-sunny-day-clear-blue-sky-in-dubai-1.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/dubai-marina-skyscrapers-low-angle-view-in-a-sunny-day-clear-blue-sky-in-dubai-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 227378,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/dubai-marina-skyscrapers-in-a-sunny-day-clear-blue-CSVU4PA"
+        },
+        {
+            "filename": "construction-workers-in-uniform-sitting-on-concrete-at-construction-site-discussing-building-plans.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/construction-workers-in-uniform-sitting-on-concrete-at-construction-site-discussing-building-plans-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 176244,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-workers-in-uniform-sitting-on-concret-PKB5Z24"
+        },
+        {
+            "filename": "construction-engineers-discussion-with-architects-at-construction-or-building-site-e1700567039545.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/construction-engineers-discussion-with-architects-at-construction-or-building-site-e1700567039545-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-portfolio.json",
+                    "name": "Single Portfolio"
+                }
+            ],
+            "filesize": 126688,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7039545"
+        },
+        {
+            "filename": "workers-working-together-in-crane-manufacturing-facility-china.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/workers-working-together-in-crane-manufacturing-facility-china-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 156848,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9JVW2C8"
+        },
+        {
+            "filename": "Logo-1-2.png",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/Logo-1-2.png",
+            "templates": [
+                {
+                    "source": "templates\/tructo-header.json",
+                    "name": "Tructo - Header"
+                },
+                {
+                    "source": "templates\/tructo-menu-slide.json",
+                    "name": "Tructo - Menu Slide"
+                },
+                {
+                    "source": "templates\/tructo-footer.json",
+                    "name": "Tructo - Footer"
+                }
+            ],
+            "filesize": 10012,
+            "dimensions": [
+                237,
+                125
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "17.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/17.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tructo-single-blog.json",
+                    "name": "Tructo - Single Blog"
+                }
+            ],
+            "filesize": 33547,
+            "dimensions": [
+                499,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "worker-in-professional-uniform-putting-hardhat-on-heap-of-project-documents-e1702217058981.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/worker-in-professional-uniform-putting-hardhat-on-heap-of-project-documents-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tructo-single-blog.json",
+                    "name": "Tructo - Single Blog"
+                }
+            ],
+            "filesize": 83127,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/worker-in-professional-uniform-putting-hardhat-on--ZQ3XZSB"
+        },
+        {
+            "filename": "construction-workers-on-steel-beams-in-construction-site-e1702217071392.jpg",
+            "thumbnail_url": "http:\/\/kit.creativemox.com\/tructo\/wp-content\/uploads\/sites\/26\/2023\/12\/construction-workers-on-steel-beams-in-construction-site-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tructo-error-404.json",
+                    "name": "Tructo - Error 404"
+                }
+            ],
+            "filesize": 172707,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/construction-workers-on-steel-beams-in-constructio-XER6XZS"
+        }
+    ]
+}
