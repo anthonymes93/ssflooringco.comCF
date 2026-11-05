@@ -1,0 +1,28 @@
+const reply=(body,status=200)=>Response.json(body,{status,headers:{"Cache-Control":"no-store"}});
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const validEmail=s=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s)&&s.length<=254;
+const validPhone=s=>{const d=s.replace(/\D/g,"");return d.length>=7&&d.length<=15};
+export const onRequestGet=({env})=>reply({turnstileSiteKey:env.TURNSTILE_SITE_KEY||null});
+export async function onRequestPost({request,env}){try{
+if(!env.RESEND_API_KEY||!env.CONTACT_TO_EMAIL||!env.TURNSTILE_SITE_KEY||!env.TURNSTILE_SECRET_KEY)return reply({error:"Contact service is not configured."},503);
+if(Number(request.headers.get("content-length")||0)>16000)return reply({error:"Request too large."},413);
+if(!request.headers.get("content-type")?.startsWith("application/json"))return reply({error:"Invalid request."},415);
+const origin=request.headers.get("origin");if(origin&&new URL(origin).host!==new URL(request.url).host)return reply({error:"Invalid origin."},403);
+const d=await request.json();if(!d||typeof d!=="object"||Array.isArray(d))return reply({error:"Invalid request."},400);
+if(d.website)return reply({ok:true});
+const name=typeof d.name==="string"?d.name.trim():"",email=typeof d.email==="string"?d.email.trim():"",phone=typeof d.phone==="string"?d.phone.trim():"",message=typeof d.message==="string"?d.message.trim():"",token=typeof d.turnstileToken==="string"?d.turnstileToken:"";
+if(name.length<1||name.length>120||email.length>254||phone.length>32||message.length<1||message.length>5000||(email&&!validEmail(email))||(phone&&!validPhone(phone))||(!email&&!phone))return reply({error:"Please check your contact information and message."},400);
+if(!token||token.length>2048)return reply({error:"Please complete the security check."},400);
+const check=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({secret:env.TURNSTILE_SECRET_KEY,response:token,remoteip:request.headers.get("CF-Connecting-IP")||undefined})});
+if(!check.ok)return reply({error:"Security verification unavailable."},502);
+const verified=await check.json();if(!verified.success||verified.hostname&&verified.hostname!==new URL(request.url).hostname)return reply({error:"Security verification failed. Please try again."},403);
+const from=env.CONTACT_FROM_EMAIL||"emails@rtuino.com";if(!validEmail(from))return reply({error:"Sender email not configured."},503);
+const line=(label,value)=>'<tr><td style="padding:12px 0;border-bottom:1px solid #edf0f4;color:#778498;width:110px;vertical-align:top;font-size:13px">'+label+'</td><td style="padding:12px 0;border-bottom:1px solid #edf0f4;color:#1c3048;font-size:14px;font-weight:600;word-break:break-word">'+esc(value||"Not provided")+'</td></tr>';
+const buttons=(email?'<a href="'+esc("mailto:"+email+"?subject=Re%3A%20Website%20Enquiries")+'" style="display:inline-block;padding:14px 21px;margin:0 10px 10px 0;border-radius:8px;background:#3268e9;color:#fff;text-decoration:none;font-weight:bold">Reply by email →</a>':"")+(phone?'<a href="'+esc("tel:"+phone.replace(/[^+\d]/g,""))+'" style="display:inline-block;padding:14px 21px;border-radius:8px;background:#16845b;color:#fff;text-decoration:none;font-weight:bold">Call customer →</a>':"");
+const html='<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;padding:30px 12px;background:#f2f4f8;font-family:Arial,sans-serif;color:#24344a"><div style="max-width:600px;margin:auto"><div style="font-size:14px;font-weight:bold;margin:0 0 18px">SS Flooring Co. <span style="float:right;font-size:11px;color:#8b98ab">WEBSITE INQUIRY</span></div><div style="border-radius:12px;background:#fff;overflow:hidden;border:1px solid #e3e8f0"><div style="height:5px;background:#3268e9"></div><div style="padding:30px 28px"><span style="font-size:11px;font-weight:bold;color:#3268e9">NEW MESSAGE RECEIVED</span><h1 style="font-size:27px;margin:18px 0 8px">You have a new inquiry.</h1><p style="font-size:14px;color:#778498">A customer contacted SS Flooring Co. through the website.</p><h2 style="font-size:12px;letter-spacing:1px;color:#8b98ab;margin:30px 0 10px">CONTACT DETAILS</h2><table role="presentation" width="100%" cellspacing="0" cellpadding="0">'+line("Name",name)+line("Email",email)+line("Phone",phone)+'</table><h2 style="font-size:12px;letter-spacing:1px;color:#8b98ab;margin:30px 0 12px">THEIR MESSAGE</h2><div style="background:#f6f8fc;border:1px solid #e9eef6;padding:20px;border-radius:9px;font-size:14px;line-height:1.7;overflow-wrap:anywhere">'+esc(message).replace(/\r?\n/g,"<br>")+'</div><div style="margin-top:28px">'+buttons+'</div></div></div><p style="text-align:center;font-size:12px;color:#8b98ab">Sent from ssflooringco.com</p></div></body></html>';
+const payload={from:"Website Enquiries <"+from+">",to:[env.CONTACT_TO_EMAIL],subject:"SS Flooring Co.",html,text:"SS Flooring Co. website inquiry\nName: "+name+"\nEmail: "+(email||"Not provided")+"\nPhone: "+(phone||"Not provided")+"\nMessage: "+message,...(email?{reply_to:email}:{})};
+const sent=await fetch("https://api.resend.com/emails",{method:"POST",headers:{"Authorization":"Bearer "+env.RESEND_API_KEY,"Content-Type":"application/json"},body:JSON.stringify(payload)});
+if(!sent.ok){console.error("Resend error",sent.status,await sent.text());return reply({error:"Unable to send your message. Please try again."},502)}
+return reply({ok:true});
+}catch(error){console.error("Contact error",error);return reply({error:"Unable to send your message. Please try again."},500)}
+}
